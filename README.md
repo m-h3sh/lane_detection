@@ -53,3 +53,5 @@ If a horizontal line is detected, we store the vertical lanes at that instant. F
 The final lanes pointcloud will be published on <b>/sd_lanes</b>
 <br><br>
 After the intersection is reached, we detect the horizontal line in the left and right turns respectively, and depending on where we have to turn, we plan a path from the current position to the goal (midpoint of said horizontal line).
+Goal positions will be one of the yellow lines<br><br>
+![title](intersection.jpeg)
